@@ -6,12 +6,11 @@
 A **Node.js + Express + Sequelize** backend for managing vehicle rentals, users, bookings, payments, and analytics.
 All endpoints are prefixed with:
 
+# Video Link 
 ```
-http://localhost:5000/api
+https://res.cloudinary.com/dyg8dlfbn/video/upload/v1758478469/videoofequest_wg3f2a.mp4
 ```
-
 ---
-
 ## 🔐 Authentication & Authorization
 
 * **JWT Authentication** → `Authorization: Bearer <token>` required for protected routes.
@@ -232,5 +231,6 @@ NODE_ENV=development
 * In **development mode**, DB resets with `force: true` → drops & recreates tables.
 * Always test APIs with **Postman / Insomnia / Thunder Client**.
 * Use **role-based access control** with `requireRole()` and `agentOnly`.
+* Some endpoints are not shown in the demo video, but they are fully implemented and tested with Postman; since the frontend integration is still in progress, they have not yet been added to the UI.
 
 ---
